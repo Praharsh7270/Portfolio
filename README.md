@@ -1,12 +1,53 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **responsive personal portfolio website** built using **React**, **HTML**, **CSS**, and **JavaScript**, showcasing my skills, projects, and a little about me. It’s designed to highlight my work and serve as a digital resume.
 
-Currently, two official plugins are available:
+## 📸 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here to view the live site](#) <!-- (Replace # with your actual hosted URL) -->
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 About Me
+
+Hi, I’m **Praharsh Singh**, a passionate Full Stack Developer and Tech Enthusiast.  
+This portfolio showcases my journey in web development, my tech stack, and the various projects I’ve worked on. I enjoy building clean, responsive, and interactive web applications with React and modern web technologies.
+
+---
+
+## 🛠️ Features
+
+- 🧑‍💻 About Me section
+- 🧳 Projects showcase
+- 📞 Contact form
+- ✨ Typing animations
+- 🌙 Dark/light theme ready (if implemented)
+- 🔗 Smooth scroll navigation
+- 📱 Fully responsive design
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: React, HTML, CSS, JavaScript
+- **Bundler**: Vite
+- **Animations**: `react-simple-typewriter`, `react-typing-effect`, `react-scroll`
+- **Linting & Quality**: ESLint, React Hooks plugin
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+portfolio/
+├── public/
+├── src/
+│   ├── assets/           # Images and static assets
+│   ├── components/       # Reusable components like Navbar, ProjectCard
+│   ├── pages/            # Main sections like About, Projects, Contact
+│   ├── App.jsx           # Main app file
+│   ├── main.jsx          # Entry point
+│   └── index.css         # Global styles
+├── package.json
+├── vite.config.js
+└── README.md
