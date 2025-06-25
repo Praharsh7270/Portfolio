@@ -98,12 +98,42 @@ nav h1 {
 }
 
 @media (max-width: 760px){
-
+    nav {
+        height: 60px;
+        padding: 12px 8px;
+    }
+    nav h1 {
+        font-size: 22px;
+    }
     .desktop{
         display: none;
     }
-    
     .hamburger{
         display: flex;
+        z-index: 30;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: rgba(30,32,34,0.98);
+        backdrop-filter: blur(8px);
+        gap: 32px;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 32px;
+        font-size: 1.2rem;
+        z-index: 25;
+    }
+    .mobile li {
+        padding: 18px 0;
+        font-size: 1.1rem;
+        width: 100vw;
+        text-align: center;
     }
 }

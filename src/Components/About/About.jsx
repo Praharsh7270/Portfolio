@@ -1,6 +1,10 @@
 import React from 'react'
 import "./About.css"
-
+import Card from '../Card/Card'
+import mern from "../../assets/mern.png"
+import java from "../../assets/java.png"
+import ai from "../../assets/ai_ml.png"
+import python from "../../assets/django_python.jpg"
 const About = () => {
   return (
     <div id="About">
@@ -71,6 +75,10 @@ const About = () => {
 
       <div className="right">
         {/* Add right side content here */}
+        <Card title="MERN STACK" img={mern}/>
+        <Card title="JAVA & DSA" img={java}/>
+        <Card title="PYTHON & DJANGO" img={python}/>
+        <Card title="AI/ML" img={ai}/>
       </div>
     </div>
   )

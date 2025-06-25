@@ -1,0 +1,69 @@
+#projects{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slider{
+    width: 90%;
+    height: 400px;
+    
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 30px;
+    scrollbar-width: none;
+}
+
+#project-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background: linear-gradient(to right, #6fbbfd, #1e2022);
+    background-clip: text;
+    color: transparent;
+}
+
+#submitBtn{
+    width: 80px;
+    height: 40px;
+    border: 2px solid #6fbbfd;
+    border-radius: 20px;
+    background-color: #6fbbfd;
+    color: #1e2022;
+    font-weight: 600;
+    cursor: pointer;
+    transition:all 0.5s;
+    font-size: 20px;
+    &:hover{
+        background-color: #1e2022;
+        color: #6fbbfd;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    #contact{
+        flex-direction: column;
+    }
+
+    .leftcontact{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .leftcontact img{
+        width: 100%;
+    }
+
+    .rightcontact{
+        width: 100%;
+        height: 50vh;
+    }
+}

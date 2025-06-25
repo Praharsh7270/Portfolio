@@ -71,29 +71,46 @@ button{
 @media screen and (max-width: 768px) {
     #home {
         flex-direction: column-reverse;
+        min-height: 100vh;
+        padding: 0 0 24px 0;
     }
-
     .left, .right {
-        
         width: 100%;
-        height: 50vh;
-        padding: 20px;
+        height: auto;
+        min-height: 40vh;
+        padding: 12px 0;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .right {
-        margin-top: 20px;
-        align-items: end;
+        margin-top: 0;
+        align-items: center;
     }
     .right img {
-        width: 60%;
-        
+        width: 70vw;
+        max-width: 220px;
+        min-width: 120px;
+        margin: 0 auto;
     }
-
     .detail {
-        font-size: 1.5em;
+        font-size: 1.1em;
+        margin-top: 12px;
     }
-
+    .line1 {
+        font-size: 1em;
+    }
     .line2 {
-        font-size: 2em;
+        font-size: 1.3em;
+    }
+    .line3 {
+        font-size: 1em;
+    }
+    button {
+        width: 90vw;
+        max-width: 300px;
+        margin: 18px auto 0 auto;
+        display: block;
+        font-size: 1em;
     }
 }
