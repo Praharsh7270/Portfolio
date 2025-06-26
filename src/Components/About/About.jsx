@@ -15,7 +15,8 @@ const About = () => {
           <div className="circle"></div>
           <div className="line"></div>
           <div className="circle"></div>
-          
+          <div className="line"></div>
+          <div className="circle"></div>
         </div>
 
         <div className="aboutDeatls">

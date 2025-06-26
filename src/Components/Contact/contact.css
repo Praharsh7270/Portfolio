@@ -55,3 +55,134 @@ form textarea{
     padding: 20px;
 }
 
+/* Tablet breakpoint for smoother transition */
+@media screen and (max-width: 992px) {
+    #contact {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+    .leftcontact, .rightcontact {
+        width: 100%;
+        height: auto;
+        min-height: 50vh;
+        padding: 20px;
+    }
+    .leftcontact img {
+        width: 60%;
+        max-width: 300px;
+    }
+    form {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+    #contact {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        padding: 0;
+    }
+    .leftcontact, .rightcontact {
+        width: 100%;
+        height: auto;
+        min-height: 40vh;
+        padding: 16px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftcontact {
+        order: 1;
+        min-height: 30vh;
+    }
+    .rightcontact {
+        order: 2;
+        min-height: 60vh;
+    }
+    .leftcontact img {
+        width: 80vw;
+        max-width: 250px;
+        min-width: 150px;
+        filter: drop-shadow(0 0 20px rgba(50, 164, 250, 0.4));
+    }
+    form {
+        width: 95vw;
+        max-width: 400px;
+        height: auto;
+        padding: 24px 16px;
+        gap: 16px;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    form input {
+        width: 90%;
+        height: 50px;
+        padding: 12px 16px;
+        font-size: 16px;
+        border-radius: 12px;
+        border: 2px solid #6fbbfd;
+    }
+    form textarea {
+        width: 90%;
+        height: 120px;
+        padding: 12px 16px;
+        font-size: 16px;
+        border-radius: 12px;
+        border: 2px solid #6fbbfd;
+        resize: vertical;
+    }
+    #submitBtn {
+        width: 90%;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(45deg, #6fbbfd, #32a4fa);
+        color: white;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    #submitBtn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(111, 187, 253, 0.4);
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+    .leftcontact, .rightcontact {
+        padding: 12px 4px;
+    }
+    .leftcontact img {
+        width: 85vw;
+        max-width: 200px;
+    }
+    form {
+        width: 98vw;
+        padding: 20px 12px;
+        gap: 12px;
+    }
+    form input, form textarea {
+        width: 95%;
+        font-size: 14px;
+    }
+    form input {
+        height: 45px;
+    }
+    form textarea {
+        height: 100px;
+    }
+    #submitBtn {
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
