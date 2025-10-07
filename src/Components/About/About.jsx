@@ -47,12 +47,12 @@ const About = () => {
   ]
 
   const skills = [
-    { name: 'MERN Stack', level: 90, category: 'Web Development' },
-    { name: 'Python & Django', level: 85, category: 'Backend' },
-    { name: 'AI/ML', level: 80, category: 'Machine Learning' },
-    { name: 'Java & DSA', level: 85, category: 'Programming' },
-    { name: 'JavaScript', level: 90, category: 'Frontend' },
-    { name: 'React.js', level: 92, category: 'Frontend' }
+    { name: 'MERN Stack', level: 80, category: 'Web Development' },
+    { name: 'Python & Django', level: 75, category: 'Backend' },
+    { name: 'AI/ML', level: 65, category: 'Machine Learning' },
+    { name: 'Java & DSA', level: 50, category: 'Programming' },
+    { name: 'JavaScript', level: 80, category: 'Frontend' },
+    { name: 'React.js', level: 80, category: 'Frontend' }
   ]
 
   const techStack = [
