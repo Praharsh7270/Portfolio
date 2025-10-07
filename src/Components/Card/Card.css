@@ -1,18 +1,19 @@
 .card {
-    width: 300px;
-    height: 150px;
+    width: 320px;
+    height: 170px;
     background-color: #1e2022;
     overflow: hidden;
     position: relative;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 12px;
+    padding: 16px 18px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 10px black, 2px 2px 20px black;
-    transition: all 0.2s ease;
+    gap: 8px;
+    box-shadow: 2px 6px 18px rgba(0,0,0,0.55), 0 16px 40px rgba(0,0,0,0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
 }
 
@@ -23,13 +24,13 @@
 .card h1 {
     z-index: 2;
     position: relative;
-    font-size: 24px;
+    font-size: 26px;
     background: linear-gradient(to right, rgb(32, 206, 240), white);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     transition: filter 0.4s ease;
 }
 
@@ -50,7 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 16px;
     box-sizing: border-box;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -69,16 +70,16 @@
 @media screen and (max-width: 768px) {
     .card {
         width: 95vw;
-        max-width: 350px;
+        max-width: 360px;
         height: auto;
-        min-height: 120px;
-        padding: 16px 8px;
+        min-height: 130px;
+        padding: 18px 12px;
         margin: 0 auto 18px auto;
         font-size: 1em;
     }
     .card h1 {
-        font-size: 1.1em;
-        margin-bottom: 8px;
+        font-size: 1.2em;
+        margin-bottom: 6px;
     }
     .hovercard img {
         max-width: 60%;

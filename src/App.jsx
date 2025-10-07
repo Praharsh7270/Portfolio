@@ -3,6 +3,10 @@ import Home from "./Components/Home/Home"
 import Nav from "./Components/Nav/Nav"
 import Project from "./Components/Project/Project"  
 import Contact from "./Components/Contact/Contact"
+import Internship from "./Components/Internship/Internship"
+import TechActivity from "./Components/TechActivity/TechActivity"
+import Footer from "./Components/Footer/Footer"
+
 function App() {
   
 
@@ -14,7 +18,10 @@ function App() {
         <About/>
       </div>
       <Project/>
+      <Internship/>
+      <TechActivity/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

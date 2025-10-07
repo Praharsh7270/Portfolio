@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "framer-motion": "^12.23.22",
+    "motion": "^12.23.22",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scroll": "^1.9.3",
     "react-simple-typewriter": "^5.0.1",
-    "react-typing-effect": "^2.0.5"
+    "react-typing-effect": "^2.0.5",
+    "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
