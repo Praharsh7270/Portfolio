@@ -36,7 +36,7 @@ const About = () => {
       degree: 'Bachelor of Computer Applications (BCA)', 
       institution: 'SRMCEM',
       period: '2022 - 2025',
-      status: 'Current'
+      status: 'Completed'
     },
     { 
       degree: 'High School', 
