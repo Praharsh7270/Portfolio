@@ -87,7 +87,7 @@ const TechActivity = () => {
             <div key={activity.id} className={`activity-card card-${index + 1}`}>
               <div className="card-header">
                 <div className="activity-image-container">
-                  <div className="image-wrapper">
+                  <div>
                     <img 
                       src={activity.image} 
                       alt={activity.title} 

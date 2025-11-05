@@ -188,7 +188,7 @@ const Project = () => {
             >
               <div className="card-header">
                 <div className="project-image-container">
-                  <div className="image-wrapper">
+                  <div className=''>
                     <img 
                       src={project.img} 
                       alt={project.name} 

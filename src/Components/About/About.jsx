@@ -47,12 +47,14 @@ const About = () => {
   ]
 
   const skills = [
-    { name: 'MERN Stack', level: 80, category: 'Web Development' },
-    { name: 'Python & Django', level: 75, category: 'Backend' },
-    { name: 'AI/ML', level: 65, category: 'Machine Learning' },
-    { name: 'Java & DSA', level: 50, category: 'Programming' },
-    { name: 'JavaScript', level: 80, category: 'Frontend' },
-    { name: 'React.js', level: 80, category: 'Frontend' }
+    { name: 'MERN Stack', category: 'Web Development' },
+    { name: 'Python & Django', category: 'Backend' },
+    { name: 'AI/ML', category: 'Machine Learning' },
+    { name: 'Java & DSA', category: 'Programming' },
+    { name: 'JavaScript', category: 'Frontend' },
+    { name: 'React.js', category: 'Frontend' },
+    { name: 'Node.js', category: 'Backend' },
+    { name: 'Git / GitHub', category: 'Version Control' }
   ]
 
   const techStack = [
@@ -84,7 +86,7 @@ const About = () => {
             <div className="profile-card reveal reveal-from-left">
               <div className="profile-header">
                 <div className="profile-image-container">
-                  <div className="image-wrapper">
+                  <div>
                     <img src={profileImage} alt="Praharsh Singh" className="profile-image" />
                     <div className="image-glow"></div>
                   </div>
@@ -162,19 +164,10 @@ const About = () => {
                 </div>
                 <h3>Skills & Expertise</h3>
               </div>
-              <div className="skills-list">
+              <div className="skills-grid">
                 {skills.map((skill, index) => (
-                  <div key={index} className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-level">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-fill" 
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
+                  <div key={index} className="skill-tag">
+                    <span className="skill-name">{skill.name}</span>
                     <span className="skill-category">{skill.category}</span>
                   </div>
                 ))}

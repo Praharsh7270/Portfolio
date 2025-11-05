@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="contact-info">
             <div className="info-card">
               <div className="contact-image-container">
-                <div className="image-wrapper">
+                <div >
                   <img src={contact} alt="Contact" className="contact-image" />
                   <div className="image-glow"></div>
                 </div>
